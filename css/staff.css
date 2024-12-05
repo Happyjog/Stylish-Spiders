@@ -5,6 +5,7 @@
 	Description:	creating a meet the staff page
 */
 
+/* Audrey's Section*/
 img.float-left-staff{
     width: 300px;
     height: 400px;
@@ -12,6 +13,7 @@ img.float-left-staff{
 	padding: 2%;
 	margin: 0 15px 0 0;
 	float: left;
+	box-shadow: 0px 7px 8px black;
 }
 img.floatleftLogo{
 	width: 300px;
@@ -23,14 +25,19 @@ img.floatleftLogo{
 div{
 	background-color: rgb(254, 223, 177);
 	float: left;
+	padding-bottom: 3%;
 }
 
 div.workers{
-	color: rgb(104, 12, 35);
+	color: rgb(0, 0, 0);
+	font-size: 20pt;
+	padding-right: 2%;
 }
 
 p.workers{
 	text-align: justify;
+	font-size: 20pt;
+	padding: 5%;
 }
 
 h1.company{
@@ -45,7 +52,6 @@ h1.company{
 }
 
 h1.MeetStaff{
-	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 	width: 75%;
 	margin: auto;
@@ -54,6 +60,11 @@ h1.MeetStaff{
 	padding-top: 10px;
 	font-size: 45px;
 	text-decoration: underline;
+	color: black;
+}
+
+h2.staff{
+	text-align: justify;
 }
 
 header, nav, body, footer {
@@ -104,6 +115,7 @@ nav a:hover, nav a:active {
 footer{
 	background-color: rgb(255,209,143);
 }
+/*Audrey's Section End*/
 
 /* Jouji's Section */
 .toc-encase{
