@@ -21,7 +21,7 @@ img.floatleftLogo{
 	float: left;
 }
 div{
-	background-color: rgb(255,191,98);
+	background-color: rgb(254, 223, 177);
 	float: left;
 }
 
@@ -62,7 +62,7 @@ header, nav, body, footer {
 }
 
 body{
-	background-color: rgb(225, 95, 18);
+	background-color: rgb(255, 182, 139);
 }
 
 header{
@@ -104,3 +104,102 @@ nav a:hover, nav a:active {
 footer{
 	background-color: rgb(255,209,143);
 }
+
+/* Jouji's Section */
+.toc-encase{
+	display: flex;
+	float: none;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0);
+}
+.toc{
+	float: none;
+	padding: 0 1em 0 1em;
+	box-shadow: 0px 7px 8px black;
+	border-radius: 20px;
+	border: 4px double white;
+	background-color: pink;
+}
+.toc-text-encase{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 25px;
+}
+.toc-heading{
+	
+}
+.toc-text{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.headings{
+	background-color: rgb(255, 210, 170);
+	padding: 10px 10px 10px 10px;
+	display: inline;
+	border: 5px solid white;
+	border-radius: 20px;
+	box-shadow: 0px 7px 8px black;
+}
+.cal-headings{
+	float:none;
+	text-align: center;
+	margin-bottom: 25px;
+}
+iframe{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+.calendar{
+	justify-content: space-around;
+	float: none;
+}
+.schedule-encompasser{
+
+}
+.schedule-encase{
+	display: flex;
+}
+.form-encompasser{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.form-container {
+    background-color: #fff399; 
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+label {
+    margin-top: 10px;
+    display: block;
+    color: #7a4b2a; 
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d69a6c; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+button {
+    background-color: pink; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px; 
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 141, 160); 
+}
+/* Jouji's Section End */
