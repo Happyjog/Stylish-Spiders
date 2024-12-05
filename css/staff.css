@@ -203,3 +203,22 @@ button:hover {
     background-color: rgb(255, 141, 160); 
 }
 /* Jouji's Section End */
+
+
+
+/* CJ's section */
+
+#indexContainer .IndexCenterText{
+	text-align:center;
+	font-size:25px;
+}
+
+#indexHeader{
+	text-align:center;
+}
+
+.indexImages img{
+	height:300px;
+	width:397px;
+}
+/* CJ's section end */
