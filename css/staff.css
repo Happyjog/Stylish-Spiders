@@ -266,3 +266,40 @@ ul{
 	font-size:20px;
 }
 /* CJ's section end */
+
+/* Chloe's Section*/
+
+h1.font, h2.font {
+	color: rgb(104, 12, 35);
+}
+
+.float-left {
+    display: block;
+    float: left;
+    height: 250px;
+    margin-right: 1rem;
+}
+
+.float-right { 
+    display: block;
+    float: right;
+    height: 250px;
+    margin-left: 1rem;
+}
+
+div.wrapper {
+	min-width: 650px;
+	max-width: 1200px;
+	margin: 25px auto;
+	padding: 10px 20px;
+	line-height: 1.4;
+}
+
+footer.programs{
+	color: rgb(104, 12, 35);
+	width: 1160px;
+	position: relative;
+	margin: 25px auto;
+	padding: 10px 20px;
+	overflow-x: hidden;
+}
