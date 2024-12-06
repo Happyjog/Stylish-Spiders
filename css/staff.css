@@ -234,6 +234,13 @@ ul{
 	flex-direction: column;
 	margin-left: 5%;
 }
+.toc-heading{
+	
+}
+.funnylink{
+	color: black;
+	text-decoration: none;
+}
 /* Jouji's Section End */
 
 
