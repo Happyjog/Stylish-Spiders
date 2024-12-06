@@ -172,6 +172,7 @@ iframe{
 }
 .schedule-encase{
 	display: flex;
+	flex-direction: row;
 }
 .form-encompasser{
 	display: flex;
@@ -213,6 +214,25 @@ button {
 
 button:hover {
     background-color: rgb(255, 141, 160); 
+}
+h3{
+	display: block;
+	float: none;
+}
+.age-group-text{
+}
+ul{
+	display: inline;
+}
+.schedule-img{
+	float: left;
+	width: 50%;
+	border-radius: 20px;
+}
+.side-by-side{
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
 }
 /* Jouji's Section End */
 
